@@ -22,7 +22,7 @@ VERSION = "5.4.0"
 # prerequisite: setuptools
 # http://pypi.python.org/pypi/setuptools
 
-REQUIRES = ["urllib3 >= 1.15", "six >= 1.8.0", "certifi >= 14.05.14", "python-dateutil >= 2.5.3", "setuptools >= 21.0.0", "PyJWT>=2.0.0", "cryptography>=2.5"]
+REQUIRES = ["urllib3 >= 2.0.0, < 3.0.0", "six >= 1.8.0", "certifi >= 14.05.14", "python-dateutil >= 2.5.3", "setuptools >= 21.0.0", "PyJWT>=2.0.0", "cryptography>=2.5"]
 
 class CleanCommand(Command):
     """Custom clean command to tidy up the project root."""

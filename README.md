@@ -85,7 +85,7 @@ This client has the following external dependencies:
 *   six v1.8.0+
 *   python_dateutil v2.5.3+
 *   setuptools v21.0.0+
-*   urllib3 v1.15.1+
+*   urllib3 v2.0.0+
 *   PyJWT v2.0.0+
 *   cryptography v2.5+
 
